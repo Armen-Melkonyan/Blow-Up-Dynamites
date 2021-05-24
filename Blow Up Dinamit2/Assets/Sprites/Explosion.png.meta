@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 3654649cd6238b94dbc65bf0aa7a28b2
+timeCreated: 1592217213
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Explosion_3
+    21300002: Explosion_4
+    21300004: Explosion_5
+    21300006: Explosion_6
+    21300008: Explosion_7
+    21300010: Explosion_11
+    21300012: Explosion_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Explosion_3
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 40
+        width: 585
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.165833, y: 21.826569}
+        - {x: 50.165833, y: 22.826569}
+        - {x: 36.165833, y: 22.826569}
+        - {x: 13.1658325, y: -18.173431}
+        - {x: 13.1658325, y: -96.17343}
+        - {x: 94.16583, y: -96.17343}
+        - {x: 99.16583, y: -89.17343}
+        - {x: 99.16583, y: -17.173431}
+        - {x: 89.16583, y: -11.173431}
+      - - {x: -118.83417, y: 41.82657}
+        - {x: -126.83417, y: 21.826569}
+        - {x: -126.83417, y: -46.17343}
+        - {x: -112.83417, y: -77.17343}
+        - {x: -97.83417, y: -83.17343}
+        - {x: -43.834167, y: -83.17343}
+        - {x: -2.8341675, y: -54.17343}
+        - {x: -2.8341675, y: 41.82657}
+      - - {x: 63.165833, y: 111.82657}
+        - {x: 9.1658325, y: 97.82657}
+        - {x: -9.8341675, y: 74.82657}
+        - {x: -9.8341675, y: 42.82657}
+        - {x: 2.1658325, y: 23.826569}
+        - {x: 7.1658325, y: 21.826569}
+        - {x: 60.165833, y: 21.826569}
+        - {x: 98.16583, y: 50.82657}
+        - {x: 98.16583, y: 95.82657}
+        - {x: 84.16583, y: 111.82657}
+    - name: Explosion_4
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 40
+        width: 585
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.401, y: 90.82657}
+        - {x: -89.401, y: 77.82657}
+        - {x: -89.401, y: -38.17343}
+        - {x: -88.401, y: -50.17343}
+        - {x: -25.401001, y: -77.17343}
+        - {x: 61.599, y: -77.17343}
+        - {x: 69.599, y: -75.17343}
+        - {x: 69.599, y: 87.82657}
+        - {x: 68.599, y: 90.82657}
+    - name: Explosion_5
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 40
+        width: 585
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97.331665, y: 55.82657}
+        - {x: 67.331665, y: 83.82657}
+        - {x: 36.331665, y: 100.82657}
+        - {x: -30.668335, y: 100.82657}
+        - {x: -72.668335, y: 90.82657}
+        - {x: -81.668335, y: 64.82657}
+        - {x: -105.668335, y: 22.826569}
+        - {x: -105.668335, y: -41.17343}
+        - {x: -82.668335, y: -83.17343}
+        - {x: -57.668335, y: -107.17343}
+        - {x: -25.668335, y: -113.17343}
+        - {x: 41.331665, y: -113.17343}
+        - {x: 69.331665, y: -100.17343}
+        - {x: 109.331665, y: -43.17343}
+        - {x: 109.331665, y: 17.826569}
+      - - {x: 121.331665, y: -1.1734314}
+        - {x: 122.331665, y: -3.1734314}
+        - {x: 124.331665, y: -5.1734314}
+        - {x: 127.331665, y: -4.1734314}
+        - {x: 127.331665, y: 16.826569}
+        - {x: 125.331665, y: 18.826569}
+        - {x: 121.331665, y: 17.826569}
+    - name: Explosion_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 585
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: -1.1734314}
+        - {x: 54, y: -35.17343}
+        - {x: 54, y: -115.17343}
+        - {x: 57, y: -118.17343}
+        - {x: 127, y: -118.17343}
+        - {x: 127, y: -34.17343}
+        - {x: 114, y: -1.1734314}
+      - - {x: -51, y: -78.17343}
+        - {x: -49, y: -72.17343}
+        - {x: -49, y: -56.17343}
+        - {x: -59, y: -45.17343}
+        - {x: -74, y: 23.826569}
+        - {x: -83, y: 26.826569}
+        - {x: -104, y: 26.826569}
+        - {x: -120, y: 17.826569}
+        - {x: -127, y: 11.826569}
+        - {x: -127, y: -60.17343}
+        - {x: -126, y: -72.17343}
+        - {x: -114, y: -81.17343}
+        - {x: -93, y: -81.17343}
+        - {x: -91, y: -73.17343}
+        - {x: -91, y: -66.17343}
+        - {x: -70, y: -79.17343}
+      - - {x: 56, y: 119.82657}
+        - {x: 56, y: 99.82657}
+        - {x: 67, y: 71.82657}
+        - {x: 116, y: 71.82657}
+        - {x: 122, y: 72.82657}
+        - {x: 127, y: 78.82657}
+        - {x: 127, y: 115.82657}
+        - {x: 124, y: 119.82657}
+    - name: Explosion_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 40
+        width: 585
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 16.826569}
+        - {x: 43, y: 9.826569}
+        - {x: 15, y: -65.17343}
+        - {x: 15, y: -107.17343}
+        - {x: 24, y: -113.17343}
+        - {x: 56, y: -113.17343}
+        - {x: 111, y: -100.17343}
+        - {x: 118, y: -90.17343}
+        - {x: 118, y: -32.17343}
+        - {x: 88, y: 16.826569}
+      - - {x: -127, y: 47.82657}
+        - {x: -127, y: -73.17343}
+        - {x: -99, y: -87.17343}
+        - {x: -24, y: -87.17343}
+        - {x: -15, y: -76.17343}
+        - {x: -15, y: 8.826569}
+        - {x: -32, y: 47.82657}
+      - - {x: 43, y: 119.82657}
+        - {x: 17, y: 116.82657}
+        - {x: 2, y: 105.82657}
+        - {x: 2, y: 82.82657}
+        - {x: 26, y: 42.82657}
+        - {x: 50, y: 34.82657}
+        - {x: 85, y: 34.82657}
+        - {x: 91, y: 37.82657}
+        - {x: 126, y: 92.82657}
+        - {x: 126, y: 119.82657}
+    - name: Explosion_11
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 40
+        width: 585
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.868896, y: 50.82657}
+        - {x: -52.868896, y: 19.826569}
+        - {x: -52.868896, y: -45.17343}
+        - {x: -42.868896, y: -61.17343}
+        - {x: 45.131104, y: -61.17343}
+        - {x: 59.131104, y: -40.17343}
+        - {x: 59.131104, y: 40.82657}
+        - {x: 45.131104, y: 50.82657}
+    - name: Explosion_12
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 40
+        width: 585
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.497437, y: 45.82657}
+        - {x: 24.497437, y: 50.82657}
+        - {x: -33.502563, y: 50.82657}
+        - {x: -55.502563, y: 26.826569}
+        - {x: -55.502563, y: -49.17343}
+        - {x: -54.502563, y: -52.17343}
+        - {x: -24.502563, y: -63.17343}
+        - {x: 24.497437, y: -63.17343}
+        - {x: 43.497437, y: -47.17343}
+        - {x: 54.497437, y: -25.173431}
+        - {x: 54.497437, y: 13.826569}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

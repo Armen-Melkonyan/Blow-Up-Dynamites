@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Spike
+  - Star
+  - Smoke
+  - BodyPart
+  - Explosion
+  - Wave
+  - WaveGenerator
+  - Bomb
+  - Gate
+  - Cabin
+  - Dinamit
+  - UFO
+  - Landing
+  - ExpKey
+  - ExitAndWin
+  - Boarder
+  - Tank
+  - Sequence
+  - Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 37503723
+    locked: 0
+  - name: GrandAndWall
+    uniqueID: 3509666699
+    locked: 0
+  - name: Player
+    uniqueID: 4128679941
+    locked: 0

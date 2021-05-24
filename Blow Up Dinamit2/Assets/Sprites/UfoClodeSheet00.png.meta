@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 723e6c71e2bab0d44809b0fb80387c31
+timeCreated: 1592305402
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UfoClodeSheet00_0
+    21300002: UfoClodeSheet00_1
+    21300004: UfoClodeSheet00_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UfoClodeSheet00_0
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 693
+        width: 638
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.16629, y: 92.979675}
+        - {x: -41.83371, y: 92.979675}
+        - {x: -72.83371, y: 85.979675}
+        - {x: -117.83371, y: 27.979675}
+        - {x: -122.83371, y: 6.9796753}
+        - {x: -122.83371, y: -42.020325}
+        - {x: -116.83371, y: -49.020325}
+        - {x: -105.83371, y: -62.020325}
+        - {x: -95.83371, y: -70.020325}
+        - {x: -62.83371, y: -91.020325}
+        - {x: 20.16629, y: -91.020325}
+        - {x: 97.16629, y: -77.020325}
+        - {x: 123.16629, y: -38.020325}
+        - {x: 123.16629, y: 21.979675}
+        - {x: 100.16629, y: 46.979675}
+    - name: UfoClodeSheet00_1
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 651
+        width: 1323
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 255.16925, y: -25.200912}
+        - {x: 243.16925, y: -10.200912}
+        - {x: 184.16925, y: -3.2009125}
+        - {x: 163.16925, y: 13.799088}
+        - {x: 164.16925, y: 33.799088}
+        - {x: 156.16925, y: 46.799088}
+        - {x: 125.16925, y: 94.79909}
+        - {x: 115.16925, y: 117.79909}
+        - {x: 87.16925, y: 138.79909}
+        - {x: 53.16925, y: 152.79909}
+        - {x: 1.1692505, y: 152.79909}
+        - {x: -11.8307495, y: 141.79909}
+        - {x: -47.83075, y: 89.79909}
+        - {x: -54.83075, y: 94.79909}
+        - {x: -116.83075, y: 73.79909}
+        - {x: -121.83075, y: 64.79909}
+        - {x: -134.83075, y: 36.799088}
+        - {x: -155.83075, y: 28.799088}
+        - {x: -175.83075, y: -5.2009125}
+        - {x: -213.83075, y: -19.200912}
+        - {x: -240.83075, y: -32.200912}
+        - {x: -254.83075, y: -58.200912}
+        - {x: -254.83075, y: -93.20091}
+        - {x: -246.83075, y: -116.20091}
+        - {x: -222.83075, y: -135.20091}
+        - {x: -186.83075, y: -138.20091}
+        - {x: -128.83075, y: -148.20091}
+        - {x: -80.83075, y: -146.20091}
+        - {x: -34.83075, y: -133.20091}
+        - {x: -12.8307495, y: -140.20091}
+        - {x: 39.16925, y: -145.20091}
+        - {x: 69.16925, y: -131.20091}
+        - {x: 113.16925, y: -135.20091}
+        - {x: 135.16925, y: -151.20091}
+        - {x: 177.16925, y: -151.20091}
+        - {x: 216.16925, y: -137.20091}
+        - {x: 240.16925, y: -121.20091}
+        - {x: 255.16925, y: -92.20091}
+    - name: UfoClodeSheet00_2
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 706
+        width: 1039
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 193.91565, y: -86.512054}
+        - {x: 201.91565, y: -73.512054}
+        - {x: 201.91565, y: -37.512054}
+        - {x: 169.91565, y: 9.487946}
+        - {x: 121.91565, y: 30.487946}
+        - {x: 43.91565, y: 110.487946}
+        - {x: -8.084351, y: 110.487946}
+        - {x: -44.08435, y: 105.487946}
+        - {x: -63.08435, y: 72.487946}
+        - {x: -85.08435, y: 25.487946}
+        - {x: -103.08435, y: 23.487946}
+        - {x: -169.08435, y: 7.4879456}
+        - {x: -194.08435, y: -8.512054}
+        - {x: -200.08435, y: -19.512054}
+        - {x: -200.08435, y: -65.512054}
+        - {x: -162.08435, y: -88.512054}
+        - {x: -56.08435, y: -97.512054}
+        - {x: -1.0843506, y: -108.512054}
+        - {x: 107.91565, y: -108.512054}
+        - {x: 160.91565, y: -102.512054}
+        - {x: 184.91565, y: -95.512054}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

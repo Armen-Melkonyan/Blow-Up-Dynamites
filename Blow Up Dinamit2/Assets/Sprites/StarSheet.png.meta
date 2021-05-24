@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 017496316ee0c174baa326cca5574074
+timeCreated: 1592305444
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Star_0
+    21300002: Star_1
+    21300004: Star_2
+    21300006: Star_3
+    21300008: Star_4
+    21300010: Star_5
+    21300012: Star_6
+    21300014: Star_7
+    21300016: Star_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Star_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 18
+        width: 195
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.7485886, y: 97.855934}
+        - {x: -5.2514114, y: 97.855934}
+        - {x: -16.251411, y: 76.855934}
+        - {x: -94.25141, y: 41.855934}
+        - {x: -94.25141, y: -9.144066}
+        - {x: -63.25141, y: -97.144066}
+        - {x: 68.74859, y: -97.144066}
+        - {x: 94.74859, y: 8.855934}
+        - {x: 94.74859, y: 29.855934}
+    - name: Star_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 131
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.694916, y: 11.427498}
+        - {x: 64.694916, y: 17.427498}
+        - {x: 64.694916, y: 28.427498}
+        - {x: 62.694916, y: 29.427498}
+        - {x: 9.694916, y: 99.4275}
+        - {x: -11.305084, y: 99.4275}
+        - {x: -63.305084, y: 27.427498}
+        - {x: -63.305084, y: -10.572502}
+        - {x: -43.305084, y: -98.5725}
+        - {x: 43.694916, y: -98.5725}
+        - {x: 42.694916, y: -82.5725}
+        - {x: 41.694916, y: -70.5725}
+    - name: Star_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 18
+        width: 85
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.108276, y: 97.855934}
+        - {x: -10.108276, y: 96.855934}
+        - {x: -41.108276, y: 28.855934}
+        - {x: -41.108276, y: 11.855934}
+        - {x: -30.108276, y: -21.144066}
+        - {x: -33.108276, y: -97.144066}
+        - {x: 38.891724, y: -97.144066}
+        - {x: 41.891724, y: -25.144066}
+        - {x: 41.891724, y: 30.855934}
+        - {x: 10.891724, y: 97.855934}
+    - name: Star_3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 18
+        width: 44
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.268372, y: 97.855934}
+        - {x: -21.268372, y: -97.144066}
+        - {x: 19.731628, y: -97.144066}
+        - {x: 21.731628, y: -79.144066}
+        - {x: 21.731628, y: 65.855934}
+        - {x: 18.731628, y: 97.855934}
+    - name: Star_4
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 28
+        width: 20
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Star_5
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 26
+        width: 45
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.515137, y: 97.56968}
+        - {x: -12.515137, y: 96.56968}
+        - {x: -21.515137, y: 43.56968}
+        - {x: -21.515137, y: -77.43032}
+        - {x: -20.515137, y: -97.43032}
+        - {x: 17.484863, y: -97.43032}
+        - {x: 23.484863, y: -23.43032}
+        - {x: 23.484863, y: 40.56968}
+        - {x: 5.4848633, y: 97.56968}
+    - name: Star_6
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 26
+        width: 85
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.89917, y: 97.56968}
+        - {x: -8.10083, y: 97.56968}
+        - {x: -9.10083, y: 96.56968}
+        - {x: -41.10083, y: 37.56968}
+        - {x: -41.10083, y: -35.43032}
+        - {x: -35.10083, y: -97.43032}
+        - {x: 31.89917, y: -97.43032}
+        - {x: 41.89917, y: 4.5696793}
+        - {x: 41.89917, y: 25.56968}
+        - {x: 32.89917, y: 31.56968}
+    - name: Star_7
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 23
+        width: 131
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.992432, y: 99.177025}
+        - {x: -11.007568, y: 99.177025}
+        - {x: -63.00757, y: 30.177025}
+        - {x: -63.00757, y: -14.822975}
+        - {x: -45.00757, y: -97.822975}
+        - {x: -42.00757, y: -98.822975}
+        - {x: 53.99243, y: -98.822975}
+        - {x: 64.99243, y: -14.822975}
+        - {x: 64.99243, y: 31.177025}
+    - name: Star_8
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 26
+        width: 195
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.7712402, y: 97.56968}
+        - {x: -20.77124, y: 60.56968}
+        - {x: -93.77124, y: 25.56968}
+        - {x: -93.77124, y: 17.56968}
+        - {x: -70.77124, y: -97.43032}
+        - {x: 72.22876, y: -97.43032}
+        - {x: 95.22876, y: -42.43032}
+        - {x: 95.22876, y: 39.56968}
+        - {x: 36.22876, y: 97.56968}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

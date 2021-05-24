@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: ddd9cf79edce0424cbca1526c7b31163
+timeCreated: 1592308847
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cabin_0
+    21300002: Cabin_1
+    21300004: Cabin_2
+    21300006: Cabin_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cabin_0
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 225
+        width: 180
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.036377, y: 59.42386}
+        - {x: -54.036377, y: 28.423859}
+        - {x: -64.03638, y: -12.576141}
+        - {x: -64.03638, y: -57.57614}
+        - {x: -53.036377, y: -61.57614}
+        - {x: 44.963623, y: -61.57614}
+        - {x: 64.96362, y: -56.57614}
+        - {x: 64.96362, y: 34.42386}
+        - {x: 29.963623, y: 59.42386}
+    - name: Cabin_1
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 225
+        width: 180
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.30371, y: 59.42386}
+        - {x: -66.30371, y: -0.57614136}
+        - {x: -66.30371, y: -61.57614}
+        - {x: 48.69629, y: -61.57614}
+        - {x: 62.69629, y: -59.57614}
+        - {x: 62.69629, y: 12.423859}
+        - {x: 22.69629, y: 59.42386}
+    - name: Cabin_2
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 225
+        width: 180
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.30371, y: 59.42386}
+        - {x: -66.30371, y: 41.42386}
+        - {x: -66.30371, y: -54.57614}
+        - {x: -43.30371, y: -61.57614}
+        - {x: 62.69629, y: -61.57614}
+        - {x: 62.69629, y: 59.42386}
+    - name: Cabin_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 225
+        width: 180
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.90271, y: 59.42386}
+        - {x: -62.90271, y: 18.423859}
+        - {x: -62.90271, y: -59.57614}
+        - {x: -54.90271, y: -61.57614}
+        - {x: 66.09729, y: -61.57614}
+        - {x: 66.09729, y: 9.423859}
+        - {x: 45.09729, y: 59.42386}
+      - - {x: 21.09729, y: -3.5761414}
+        - {x: 18.09729, y: -6.5761414}
+        - {x: 18.09729, y: -9.576141}
+        - {x: 21.09729, y: -10.576141}
+        - {x: 24.09729, y: -10.576141}
+        - {x: 25.09729, y: -8.576141}
+        - {x: 25.09729, y: -6.5761414}
+        - {x: 22.09729, y: -3.5761414}
+      - - {x: 38.09729, y: 0.42385864}
+        - {x: 41.09729, y: -4.5761414}
+        - {x: 44.09729, y: -3.5761414}
+        - {x: 44.09729, y: 0.42385864}
+        - {x: 42.09729, y: 2.4238586}
+        - {x: 40.09729, y: 2.4238586}
+      - - {x: 3.09729, y: 10.423859}
+        - {x: 5.09729, y: 8.423859}
+        - {x: 8.09729, y: 9.423859}
+        - {x: 8.09729, y: 12.423859}
+        - {x: 6.09729, y: 14.423859}
+        - {x: 3.09729, y: 13.423859}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

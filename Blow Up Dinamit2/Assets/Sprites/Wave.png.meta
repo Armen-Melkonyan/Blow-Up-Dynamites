@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 0f7279e72bf75c649bb8d08bf8e2275f
+timeCreated: 1592305817
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UFO-Wave01_0
+    21300002: UFO-Wave01_1
+    21300004: UFO-Wave01_2
+    21300006: UFO-Wave01_3
+    21300008: UFO-Wave01_4
+    21300010: UFO-Wave01_5
+    21300012: UFO-Wave01_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UFO-Wave01_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 40
+        width: 228
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.421684, y: 121.30179}
+        - {x: -56.421684, y: 50.30179}
+        - {x: -51.421684, y: 49.30179}
+        - {x: 54.578316, y: 49.30179}
+        - {x: 56.578316, y: 52.30179}
+        - {x: 56.578316, y: 121.30179}
+    - name: UFO-Wave01_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 40
+        width: 237
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.80072, y: 102.30179}
+        - {x: -58.80072, y: 99.30179}
+        - {x: -58.80072, y: 59.30179}
+        - {x: -56.80072, y: 57.30179}
+        - {x: -33.80072, y: 56.30179}
+        - {x: 30.19928, y: 56.30179}
+        - {x: 45.19928, y: 58.30179}
+        - {x: 60.19928, y: 71.30179}
+        - {x: 60.19928, y: 102.30179}
+      - - {x: 48.19928, y: 61.30179}
+        - {x: 49.19928, y: 58.30179}
+        - {x: 58.19928, y: 58.30179}
+        - {x: 60.19928, y: 59.30179}
+        - {x: 60.19928, y: 71.30179}
+        - {x: 58.19928, y: 71.30179}
+        - {x: 49.19928, y: 67.30179}
+    - name: UFO-Wave01_2
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 40
+        width: 267
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.15497, y: 80.30179}
+        - {x: -66.15497, y: 62.30179}
+        - {x: -56.15497, y: 43.30179}
+        - {x: -34.15497, y: 38.30179}
+        - {x: 37.84503, y: 38.30179}
+        - {x: 67.84503, y: 53.30179}
+        - {x: 67.84503, y: 80.30179}
+      - - {x: -65.15497, y: 68.30179}
+        - {x: -66.15497, y: 68.30179}
+        - {x: -66.15497, y: 53.30179}
+        - {x: -63.15497, y: 51.30179}
+        - {x: -60.15497, y: 51.30179}
+        - {x: -57.15497, y: 53.30179}
+        - {x: -57.15497, y: 56.30179}
+        - {x: -61.15497, y: 66.30179}
+      - - {x: 64.84503, y: 54.30179}
+        - {x: 66.84503, y: 52.30179}
+        - {x: 67.84503, y: 52.30179}
+        - {x: 67.84503, y: 57.30179}
+        - {x: 65.84503, y: 57.30179}
+    - name: UFO-Wave01_3
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 40
+        width: 295
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.02905, y: 49.30179}
+        - {x: -73.02905, y: 21.301788}
+        - {x: -57.029053, y: 14.301788}
+        - {x: 48.970947, y: 14.301788}
+        - {x: 74.97095, y: 34.30179}
+        - {x: 74.97095, y: 49.30179}
+    - name: UFO-Wave01_4
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 40
+        width: 345
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85.34863, y: 25.301788}
+        - {x: -85.34863, y: 4.3017883}
+        - {x: -61.348633, y: -15.698212}
+        - {x: 58.651367, y: -15.698212}
+        - {x: 86.65137, y: -4.6982117}
+        - {x: 86.65137, y: 25.301788}
+    - name: UFO-Wave01_5
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 40
+        width: 414
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -102.09387, y: -11.698212}
+        - {x: -102.09387, y: -21.698212}
+        - {x: -101.09387, y: -24.698212}
+        - {x: -74.09387, y: -59.69821}
+        - {x: 81.90613, y: -59.69821}
+        - {x: 103.90613, y: -54.69821}
+        - {x: 103.90613, y: -11.698212}
+    - name: UFO-Wave01_6
+      rect:
+        serializedVersion: 2
+        x: 3588
+        y: 40
+        width: 509
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126.27954, y: -79.69821}
+        - {x: -124.27954, y: -83.69821}
+        - {x: -90.27954, y: -123.69821}
+        - {x: 95.72046, y: -123.69821}
+        - {x: 126.72046, y: -88.69821}
+        - {x: 126.72046, y: -66.69821}
+        - {x: -104.27954, y: -66.69821}
+        - {x: -126.27954, y: -67.69821}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 60c2e1bb47c464247b77f5c20c30256c
+timeCreated: 1592216064
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RocketFireSheet00_0
+    21300002: RocketFireSheet00_1
+    21300004: RocketFireSheet00_2
+    21300006: RocketFireSheet00_4
+    21300008: RocketFireSheet00_5
+    21300010: RocketFireSheet00_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RocketFireSheet00_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 116
+        width: 107
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.599823, y: -51.069374}
+        - {x: -0.599823, y: -53.069374}
+        - {x: 2.400177, y: -52.069374}
+        - {x: 2.400177, y: -49.069374}
+        - {x: 0.400177, y: -47.069374}
+        - {x: -2.599823, y: -48.069374}
+      - - {x: 4.400177, y: -48.069374}
+        - {x: 4.400177, y: -51.069374}
+        - {x: 5.400177, y: -53.069374}
+        - {x: 8.400177, y: -53.069374}
+        - {x: 11.400177, y: -50.069374}
+        - {x: 10.400177, y: -47.069374}
+        - {x: 6.400177, y: -47.069374}
+      - - {x: 28.400177, y: 66.930626}
+        - {x: -25.599823, y: 66.930626}
+        - {x: -30.599823, y: 57.930626}
+        - {x: -30.599823, y: 18.930626}
+        - {x: -11.599823, y: -44.069374}
+        - {x: -6.599823, y: -45.069374}
+        - {x: 15.400177, y: -45.069374}
+        - {x: 20.400177, y: -39.069374}
+        - {x: 32.400177, y: 16.930626}
+        - {x: 32.400177, y: 59.930626}
+    - name: RocketFireSheet00_1
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 116
+        width: 107
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.8231812, y: -48.069374}
+        - {x: 3.8231812, y: -51.069374}
+        - {x: 4.823181, y: -53.069374}
+        - {x: 7.823181, y: -53.069374}
+        - {x: 10.823181, y: -50.069374}
+        - {x: 9.823181, y: -47.069374}
+        - {x: 5.823181, y: -47.069374}
+      - - {x: -0.17681885, y: -52.069374}
+        - {x: 2.8231812, y: -51.069374}
+        - {x: 2.8231812, y: -48.069374}
+        - {x: -0.17681885, y: -47.069374}
+        - {x: -2.1768188, y: -49.069374}
+      - - {x: -20.176819, y: 66.930626}
+        - {x: -31.176819, y: 50.930626}
+        - {x: -31.176819, y: 12.930626}
+        - {x: -12.176819, y: -45.069374}
+        - {x: -8.176819, y: -46.069374}
+        - {x: 19.823181, y: -46.069374}
+        - {x: 31.823181, y: -9.069374}
+        - {x: 31.823181, y: 52.930626}
+        - {x: 25.823181, y: 66.930626}
+    - name: RocketFireSheet00_2
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 116
+        width: 107
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.1768188, y: -51.069374}
+        - {x: -0.17681885, y: -53.069374}
+        - {x: 2.8231812, y: -52.069374}
+        - {x: 2.8231812, y: -49.069374}
+        - {x: 0.82318115, y: -47.069374}
+        - {x: -2.1768188, y: -48.069374}
+      - - {x: 3.8231812, y: -50.069374}
+        - {x: 6.823181, y: -53.069374}
+        - {x: 8.823181, y: -53.069374}
+        - {x: 11.823181, y: -50.069374}
+        - {x: 10.823181, y: -47.069374}
+        - {x: 4.823181, y: -47.069374}
+      - - {x: -12.176819, y: -24.069374}
+        - {x: -12.176819, y: -33.069374}
+        - {x: -8.176819, y: -43.069374}
+        - {x: -2.1768188, y: -45.069374}
+        - {x: 12.823181, y: -45.069374}
+        - {x: 16.823181, y: -40.069374}
+        - {x: 16.823181, y: -28.069374}
+        - {x: 8.823181, y: -24.069374}
+      - - {x: -24.176819, y: 66.930626}
+        - {x: -31.176819, y: 64.930626}
+        - {x: -31.176819, y: -0.069374084}
+        - {x: -24.176819, y: -22.069374}
+        - {x: 14.823181, y: -22.069374}
+        - {x: 31.823181, y: 10.930626}
+        - {x: 31.823181, y: 61.930626}
+        - {x: 26.823181, y: 66.930626}
+    - name: RocketFireSheet00_4
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 116
+        width: 107
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.022827, y: 66.930626}
+        - {x: -31.022827, y: 60.930626}
+        - {x: -31.022827, y: -17.069374}
+        - {x: -11.022827, y: -57.069374}
+        - {x: 15.977173, y: -57.069374}
+        - {x: 31.977173, y: -11.069374}
+        - {x: 31.977173, y: 64.930626}
+        - {x: 25.977173, y: 66.930626}
+    - name: RocketFireSheet00_5
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 116
+        width: 107
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.022827, y: 66.930626}
+        - {x: -31.022827, y: 61.930626}
+        - {x: -31.022827, y: 8.930626}
+        - {x: -6.022827, y: -65.069374}
+        - {x: 13.977173, y: -65.069374}
+        - {x: 31.977173, y: 16.930626}
+        - {x: 31.977173, y: 57.930626}
+        - {x: 26.977173, y: 66.930626}
+    - name: RocketFireSheet00_9
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 116
+        width: 107
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.830811, y: -24.069374}
+        - {x: -10.830811, y: -44.069374}
+        - {x: -8.830811, y: -52.069374}
+        - {x: -3.8308105, y: -53.069374}
+        - {x: 14.169189, y: -53.069374}
+        - {x: 18.16919, y: -46.069374}
+        - {x: 19.16919, y: -42.069374}
+        - {x: 19.16919, y: -24.069374}
+      - - {x: -25.83081, y: 66.930626}
+        - {x: -29.83081, y: 57.930626}
+        - {x: -29.83081, y: 10.930626}
+        - {x: -10.830811, y: -11.069374}
+        - {x: -6.8308105, y: -6.069374}
+        - {x: -6.8308105, y: 0.9306259}
+        - {x: -6.8308105, y: -7.069374}
+        - {x: -7.8308105, y: -15.069374}
+        - {x: 0.16918945, y: -26.069374}
+        - {x: 2.1691895, y: -27.069374}
+        - {x: 7.1691895, y: -27.069374}
+        - {x: 16.16919, y: -20.069374}
+        - {x: 17.16919, y: -16.069374}
+        - {x: 31.16919, y: 10.930626}
+        - {x: 31.16919, y: 66.930626}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

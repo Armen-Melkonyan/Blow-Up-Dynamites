@@ -1,0 +1,999 @@
+fileFormatVersion: 2
+guid: fa375320f3b8c2947aef98bf125bfdfe
+timeCreated: 1597134680
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RobotSheet_0
+    21300002: RobotSheet_1
+    21300004: RobotSheet_2
+    21300006: RobotSheet_3
+    21300008: RobotSheet_4
+    21300010: RobotSheet_5
+    21300012: RobotSheet_6
+    21300014: RobotSheet_7
+    21300016: RobotSheet_8
+    21300018: RobotSheet_9
+    21300020: RobotSheet_10
+    21300022: RobotSheet_11
+    21300024: RobotSheet_12
+    21300026: RobotSheet_13
+    21300028: RobotSheet_14
+    21300030: RobotSheet_15
+    21300032: RobotSheet_16
+    21300034: RobotSheet_17
+    21300036: RobotSheet_18
+    21300038: RobotSheet_19
+    21300040: RobotSheet_20
+    21300042: RobotSheet_21
+    21300044: RobotSheet_22
+    21300046: RobotSheet_23
+    21300048: RobotSheet_24
+    21300050: RobotSheet_25
+    21300052: RobotSheet_26
+    21300054: RobotSheet_27
+    21300056: RobotSheet_28
+    21300058: RobotSheet_29
+    21300060: RobotSheet_30
+    21300062: RobotSheet_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RobotSheet_0
+      rect:
+        serializedVersion: 2
+        x: 7321
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 98}
+        - {x: -74, y: 52}
+        - {x: -76, y: 45}
+        - {x: -76, y: -35}
+        - {x: 7, y: -94}
+        - {x: 84, y: -94}
+        - {x: 84, y: -38}
+        - {x: 13, y: 98}
+      - - {x: 77, y: 7}
+        - {x: 72, y: 5}
+        - {x: 71, y: 2}
+        - {x: 71, y: -2}
+        - {x: 75, y: -6}
+        - {x: 79, y: -6}
+        - {x: 81, y: -5}
+        - {x: 81, y: 1}
+        - {x: 80, y: 5}
+      - - {x: 61, y: 25}
+        - {x: 59, y: 24}
+        - {x: 59, y: 19}
+        - {x: 63, y: 15}
+        - {x: 69, y: 15}
+        - {x: 70, y: 17}
+        - {x: 70, y: 22}
+        - {x: 64, y: 25}
+    - name: RobotSheet_1
+      rect:
+        serializedVersion: 2
+        x: 7081
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 97}
+        - {x: -77, y: 73}
+        - {x: -77, y: 11}
+        - {x: -11, y: -94}
+        - {x: 78, y: -94}
+        - {x: 93, y: -81}
+        - {x: 93, y: -65}
+        - {x: 8, y: 97}
+      - - {x: 81, y: -9}
+        - {x: 81, y: -7}
+        - {x: 79, y: -4}
+        - {x: 75, y: -4}
+        - {x: 73, y: -5}
+        - {x: 70, y: -7}
+        - {x: 70, y: -12}
+        - {x: 72, y: -17}
+        - {x: 77, y: -17}
+        - {x: 79, y: -15}
+        - {x: 79, y: -13}
+        - {x: 77, y: -11}
+      - - {x: 54, y: 26}
+        - {x: 53, y: 25}
+        - {x: 53, y: 20}
+        - {x: 56, y: 16}
+        - {x: 60, y: 16}
+        - {x: 65, y: 18}
+        - {x: 65, y: 24}
+        - {x: 61, y: 26}
+    - name: RobotSheet_2
+      rect:
+        serializedVersion: 2
+        x: 6849
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 89}
+        - {x: -44, y: 81}
+        - {x: -84, y: 41}
+        - {x: -84, y: 19}
+        - {x: -81, y: 10}
+        - {x: -39, y: -94}
+        - {x: 10, y: -94}
+        - {x: 12, y: -90}
+        - {x: 26, y: -94}
+        - {x: 93, y: -94}
+        - {x: 100, y: -81}
+        - {x: 100, y: -57}
+        - {x: -2, y: 89}
+      - - {x: 40, y: 20}
+        - {x: 37, y: 19}
+        - {x: 37, y: 15}
+        - {x: 41, y: 11}
+        - {x: 45, y: 11}
+        - {x: 49, y: 13}
+        - {x: 49, y: 20}
+    - name: RobotSheet_3
+      rect:
+        serializedVersion: 2
+        x: 6614
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 0}
+        - {x: -30, y: -94}
+        - {x: 9, y: -92}
+        - {x: 12, y: -82}
+        - {x: 57, y: -94}
+        - {x: 89, y: -94}
+        - {x: 106, y: -77}
+        - {x: 106, y: -68}
+        - {x: 104, y: -61}
+        - {x: 21, y: 85}
+        - {x: -73, y: 85}
+        - {x: -85, y: 76}
+      - - {x: 31, y: 10}
+        - {x: 34, y: 7}
+        - {x: 39, y: 7}
+        - {x: 44, y: 10}
+        - {x: 44, y: 16}
+        - {x: 37, y: 16}
+        - {x: 32, y: 15}
+        - {x: 31, y: 13}
+    - name: RobotSheet_4
+      rect:
+        serializedVersion: 2
+        x: 6377
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 89}
+        - {x: -44, y: 81}
+        - {x: -84, y: 41}
+        - {x: -84, y: 19}
+        - {x: -81, y: 10}
+        - {x: -39, y: -94}
+        - {x: 10, y: -94}
+        - {x: 12, y: -90}
+        - {x: 26, y: -94}
+        - {x: 93, y: -94}
+        - {x: 100, y: -81}
+        - {x: 100, y: -57}
+        - {x: -2, y: 89}
+      - - {x: 40, y: 20}
+        - {x: 37, y: 19}
+        - {x: 37, y: 15}
+        - {x: 41, y: 11}
+        - {x: 45, y: 11}
+        - {x: 49, y: 13}
+        - {x: 49, y: 20}
+    - name: RobotSheet_5
+      rect:
+        serializedVersion: 2
+        x: 6135
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 97}
+        - {x: -71, y: 53}
+        - {x: -71, y: 13}
+        - {x: -5, y: -94}
+        - {x: 84, y: -94}
+        - {x: 99, y: -81}
+        - {x: 99, y: -65}
+        - {x: 14, y: 97}
+      - - {x: 87, y: -9}
+        - {x: 87, y: -7}
+        - {x: 85, y: -4}
+        - {x: 81, y: -4}
+        - {x: 79, y: -5}
+        - {x: 76, y: -7}
+        - {x: 76, y: -12}
+        - {x: 78, y: -17}
+        - {x: 83, y: -17}
+        - {x: 85, y: -15}
+        - {x: 85, y: -13}
+        - {x: 83, y: -11}
+      - - {x: 60, y: 26}
+        - {x: 59, y: 25}
+        - {x: 59, y: 20}
+        - {x: 62, y: 16}
+        - {x: 66, y: 16}
+        - {x: 71, y: 18}
+        - {x: 71, y: 24}
+        - {x: 67, y: 26}
+    - name: RobotSheet_6
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -93}
+        - {x: 63, y: -93}
+        - {x: 73, y: -90}
+        - {x: 86, y: -85}
+        - {x: 89, y: -84}
+        - {x: 89, y: -38}
+        - {x: 18, y: 98}
+        - {x: -24, y: 98}
+        - {x: -69, y: 52}
+        - {x: -71, y: 45}
+        - {x: -71, y: 22}
+        - {x: 18, y: -90}
+        - {x: 22, y: -94}
+        - {x: 51, y: -94}
+        - {x: 54, y: -91}
+        - {x: 56, y: -86}
+        - {x: 57, y: -89}
+      - - {x: 82, y: 7}
+        - {x: 77, y: 5}
+        - {x: 76, y: 2}
+        - {x: 76, y: -2}
+        - {x: 80, y: -6}
+        - {x: 84, y: -6}
+        - {x: 86, y: -5}
+        - {x: 86, y: 1}
+        - {x: 85, y: 5}
+      - - {x: 66, y: 25}
+        - {x: 64, y: 24}
+        - {x: 64, y: 19}
+        - {x: 68, y: 15}
+        - {x: 74, y: 15}
+        - {x: 75, y: 17}
+        - {x: 75, y: 22}
+        - {x: 69, y: 25}
+    - name: RobotSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5651
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 94}
+        - {x: -59, y: 81}
+        - {x: -59, y: -2}
+        - {x: 18, y: -94}
+        - {x: 76, y: -94}
+        - {x: 77, y: -93}
+        - {x: 77, y: -4}
+        - {x: 14, y: 94}
+      - - {x: 84, y: 5}
+        - {x: 87, y: 6}
+        - {x: 87, y: 9}
+        - {x: 84, y: 10}
+        - {x: 82, y: 8}
+    - name: RobotSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5420
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -91}
+        - {x: 96, y: -36}
+        - {x: 27, y: 95}
+        - {x: -24, y: 95}
+        - {x: -43, y: 76}
+        - {x: -62, y: 52}
+        - {x: -62, y: 27}
+        - {x: -59, y: 21}
+        - {x: 21, y: -91}
+        - {x: 62, y: -91}
+        - {x: 58, y: -74}
+        - {x: 61, y: -87}
+        - {x: 68, y: -91}
+    - name: RobotSheet_9
+      rect:
+        serializedVersion: 2
+        x: 5183
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 95}
+        - {x: -19, y: 95}
+        - {x: -30, y: 49}
+        - {x: -61, y: 52}
+        - {x: -63, y: 40}
+        - {x: -63, y: 28}
+        - {x: -57, y: 23}
+        - {x: 7, y: -95}
+        - {x: 23, y: -95}
+        - {x: 44, y: -91}
+        - {x: 47, y: -78}
+        - {x: 78, y: -95}
+        - {x: 87, y: -95}
+        - {x: 103, y: -75}
+        - {x: 103, y: -58}
+        - {x: 63, y: 25}
+    - name: RobotSheet_10
+      rect:
+        serializedVersion: 2
+        x: 4955
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 86}
+        - {x: -71, y: 68}
+        - {x: -71, y: 10}
+        - {x: -21, y: -92}
+        - {x: 6, y: -95}
+        - {x: 100, y: -95}
+        - {x: 107, y: -82}
+        - {x: 107, y: -55}
+        - {x: 18, y: 86}
+    - name: RobotSheet_11
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 82}
+        - {x: -81, y: 41}
+        - {x: -81, y: 3}
+        - {x: -31, y: -95}
+        - {x: 106, y: -95}
+        - {x: 106, y: -17}
+        - {x: 0, y: 82}
+    - name: RobotSheet_12
+      rect:
+        serializedVersion: 2
+        x: 4481
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 93}
+        - {x: -78, y: 76}
+        - {x: -78, y: -35}
+        - {x: -55, y: -88}
+        - {x: 87, y: -88}
+        - {x: 100, y: -68}
+        - {x: 100, y: -54}
+        - {x: 9, y: 93}
+    - name: RobotSheet_13
+      rect:
+        serializedVersion: 2
+        x: 4238
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 97}
+        - {x: -63, y: 54}
+        - {x: -65, y: 42}
+        - {x: -65, y: 30}
+        - {x: -59, y: 25}
+        - {x: 3, y: -93}
+        - {x: 30, y: -93}
+        - {x: 42, y: -89}
+        - {x: 45, y: -76}
+        - {x: 76, y: -93}
+        - {x: 87, y: -93}
+        - {x: 101, y: -83}
+        - {x: 101, y: -30}
+        - {x: 27, y: 97}
+    - name: RobotSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85, y: -91}
+        - {x: 100, y: -86}
+        - {x: 100, y: -63}
+        - {x: 76, y: 4}
+        - {x: 15, y: 95}
+        - {x: -6, y: 95}
+        - {x: -56, y: 64}
+        - {x: -58, y: 59}
+        - {x: -58, y: 27}
+        - {x: -55, y: 21}
+        - {x: 25, y: -91}
+        - {x: 66, y: -91}
+        - {x: 62, y: -74}
+        - {x: 65, y: -87}
+        - {x: 72, y: -91}
+    - name: RobotSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3754
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 7}
+        - {x: 36, y: -92}
+        - {x: 86, y: -92}
+        - {x: 86, y: 6}
+        - {x: 61, y: 96}
+        - {x: -4, y: 96}
+        - {x: -50, y: 72}
+      - - {x: 93, y: 7}
+        - {x: 96, y: 8}
+        - {x: 96, y: 11}
+        - {x: 93, y: 12}
+        - {x: 91, y: 10}
+    - name: RobotSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 105}
+        - {x: -22, y: -97}
+        - {x: 16, y: -97}
+        - {x: 24, y: -27}
+        - {x: 24, y: 100}
+        - {x: 13, y: 105}
+      - - {x: 38, y: 5}
+        - {x: 33, y: 5}
+        - {x: 33, y: -6}
+        - {x: 36, y: -7}
+        - {x: 42, y: -7}
+        - {x: 43, y: -5}
+        - {x: 43, y: -1}
+        - {x: 40, y: 4}
+    - name: RobotSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 105}
+        - {x: -22, y: 93}
+        - {x: -26, y: 31}
+        - {x: -26, y: -100}
+        - {x: 18, y: -100}
+        - {x: 28, y: -97}
+        - {x: 28, y: 105}
+      - - {x: 42, y: 3}
+        - {x: 40, y: 0}
+        - {x: 40, y: -7}
+        - {x: 43, y: -9}
+        - {x: 50, y: -9}
+        - {x: 50, y: -3}
+        - {x: 47, y: 3}
+      - - {x: 35, y: 12}
+        - {x: 33, y: 11}
+        - {x: 33, y: 5}
+        - {x: 36, y: 1}
+        - {x: 40, y: 1}
+        - {x: 43, y: 2}
+        - {x: 43, y: 8}
+        - {x: 38, y: 12}
+    - name: RobotSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -19}
+        - {x: -45, y: -98}
+        - {x: -35, y: -100}
+        - {x: 41, y: -100}
+        - {x: 52, y: -88}
+        - {x: 52, y: -59}
+        - {x: 23, y: 101}
+        - {x: 12, y: 105}
+        - {x: -17, y: 105}
+        - {x: -21, y: 102}
+      - - {x: 40, y: -3}
+        - {x: 36, y: -6}
+        - {x: 36, y: -12}
+        - {x: 40, y: -16}
+        - {x: 45, y: -16}
+        - {x: 45, y: -3}
+    - name: RobotSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 105}
+        - {x: -11, y: 105}
+        - {x: -21, y: 100}
+        - {x: -28, y: 85}
+        - {x: -65, y: 37}
+        - {x: -65, y: -79}
+        - {x: -44, y: -90}
+        - {x: -35, y: -93}
+        - {x: 1, y: -100}
+        - {x: 30, y: -100}
+        - {x: 51, y: -85}
+        - {x: 51, y: -68}
+        - {x: 31, y: 100}
+      - - {x: 41, y: -17}
+        - {x: 38, y: -16}
+        - {x: 33, y: -20}
+        - {x: 33, y: -25}
+        - {x: 37, y: -29}
+        - {x: 39, y: -29}
+        - {x: 41, y: -27}
+    - name: RobotSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 105}
+        - {x: -71, y: 34}
+        - {x: -71, y: -90}
+        - {x: 72, y: -90}
+        - {x: 72, y: 11}
+        - {x: 38, y: 105}
+      - - {x: 36, y: -20}
+        - {x: 31, y: -22}
+        - {x: 31, y: -30}
+        - {x: 35, y: -33}
+        - {x: 39, y: -33}
+        - {x: 40, y: -31}
+        - {x: 40, y: -20}
+      - - {x: 19, y: 22}
+        - {x: 14, y: 22}
+        - {x: 13, y: 20}
+        - {x: 13, y: 16}
+        - {x: 18, y: 13}
+        - {x: 23, y: 13}
+        - {x: 25, y: 17}
+        - {x: 25, y: 20}
+        - {x: 23, y: 21}
+    - name: RobotSheet_21
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 62}
+        - {x: -65, y: 28}
+        - {x: -65, y: -102}
+        - {x: 51, y: -102}
+        - {x: 51, y: -3}
+        - {x: 45, y: 105}
+        - {x: -9, y: 105}
+        - {x: -28, y: 93}
+      - - {x: 41, y: -19}
+        - {x: 38, y: -18}
+        - {x: 33, y: -22}
+        - {x: 33, y: -27}
+        - {x: 37, y: -31}
+        - {x: 39, y: -31}
+        - {x: 41, y: -29}
+    - name: RobotSheet_22
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: -102}
+        - {x: 52, y: -102}
+        - {x: 54, y: -101}
+        - {x: 54, y: -8}
+        - {x: 20, y: 105}
+        - {x: -37, y: 105}
+        - {x: -43, y: 68}
+      - - {x: 42, y: -5}
+        - {x: 38, y: -8}
+        - {x: 38, y: -14}
+        - {x: 42, y: -18}
+        - {x: 47, y: -18}
+        - {x: 47, y: -5}
+    - name: RobotSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 105}
+        - {x: -27, y: 80}
+        - {x: -27, y: -97}
+        - {x: -20, y: -102}
+        - {x: 23, y: -102}
+        - {x: 27, y: -100}
+        - {x: 27, y: 103}
+        - {x: 20, y: 105}
+      - - {x: 41, y: 1}
+        - {x: 39, y: -2}
+        - {x: 39, y: -9}
+        - {x: 42, y: -11}
+        - {x: 49, y: -11}
+        - {x: 49, y: -5}
+        - {x: 46, y: 1}
+      - - {x: 34, y: 10}
+        - {x: 32, y: 9}
+        - {x: 32, y: 3}
+        - {x: 35, y: -1}
+        - {x: 39, y: -1}
+        - {x: 42, y: 0}
+        - {x: 42, y: 6}
+        - {x: 37, y: 10}
+    - name: RobotSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 103}
+        - {x: -20, y: 96}
+        - {x: -21, y: 82}
+        - {x: -21, y: -99}
+        - {x: 20, y: -99}
+        - {x: 25, y: -47}
+        - {x: 25, y: 103}
+      - - {x: 39, y: 3}
+        - {x: 34, y: 3}
+        - {x: 34, y: -8}
+        - {x: 37, y: -9}
+        - {x: 43, y: -9}
+        - {x: 44, y: -7}
+        - {x: 44, y: -3}
+        - {x: 41, y: 2}
+    - name: RobotSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 105}
+        - {x: -42, y: 77}
+        - {x: -45, y: 50}
+        - {x: -45, y: -99}
+        - {x: 44, y: -99}
+        - {x: 44, y: -41}
+        - {x: 22, y: 93}
+        - {x: 5, y: 105}
+    - name: RobotSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -22}
+        - {x: 33, y: -26}
+        - {x: 53, y: -21}
+        - {x: 29, y: 90}
+        - {x: 15, y: 102}
+        - {x: -5, y: 102}
+        - {x: -20, y: 92}
+        - {x: -24, y: 75}
+        - {x: -52, y: -1}
+        - {x: -63, y: -58}
+        - {x: -63, y: -82}
+        - {x: -41, y: -96}
+        - {x: -38, y: -98}
+        - {x: 60, y: -98}
+        - {x: 60, y: -59}
+        - {x: 46, y: -51}
+        - {x: 22, y: -19}
+        - {x: 21, y: -1}
+    - name: RobotSheet_27
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 97}
+        - {x: -10, y: 94}
+        - {x: -19, y: 82}
+        - {x: -21, y: 52}
+        - {x: -57, y: 2}
+        - {x: -58, y: -4}
+        - {x: -47, y: -8}
+        - {x: -72, y: -53}
+        - {x: -72, y: -98}
+        - {x: 73, y: -98}
+        - {x: 73, y: 66}
+        - {x: 16, y: 97}
+    - name: RobotSheet_28
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -22}
+        - {x: 33, y: -26}
+        - {x: 53, y: -21}
+        - {x: 29, y: 90}
+        - {x: 15, y: 102}
+        - {x: -5, y: 102}
+        - {x: -20, y: 92}
+        - {x: -24, y: 75}
+        - {x: -52, y: -1}
+        - {x: -63, y: -58}
+        - {x: -63, y: -82}
+        - {x: -41, y: -96}
+        - {x: -38, y: -98}
+        - {x: 60, y: -98}
+        - {x: 60, y: -59}
+        - {x: 46, y: -51}
+        - {x: 22, y: -19}
+        - {x: 21, y: -1}
+    - name: RobotSheet_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -100}
+        - {x: 44, y: -100}
+        - {x: 44, y: 88}
+        - {x: 43, y: 104}
+        - {x: -22, y: 104}
+        - {x: -45, y: 48}
+    - name: RobotSheet_30
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -93}
+        - {x: 26, y: 2}
+        - {x: 15, y: 10}
+        - {x: 22, y: 23}
+        - {x: 23, y: 18}
+        - {x: 25, y: 7}
+        - {x: 29, y: -13}
+        - {x: 30, y: -17}
+        - {x: 38, y: -14}
+        - {x: 38, y: 86}
+        - {x: 26, y: 103}
+        - {x: -26, y: 103}
+        - {x: -36, y: 89}
+        - {x: -36, y: -15}
+        - {x: -34, y: -24}
+        - {x: -25, y: -14}
+        - {x: -25, y: -3}
+        - {x: -22, y: 11}
+        - {x: -21, y: 19}
+        - {x: -21, y: 32}
+        - {x: -18, y: 18}
+        - {x: -16, y: 15}
+        - {x: -24, y: 1}
+        - {x: -24, y: -12}
+        - {x: -26, y: -48}
+        - {x: -24, y: -101}
+        - {x: -6, y: -101}
+        - {x: -2, y: -99}
+        - {x: 2, y: -101}
+        - {x: 24, y: -101}
+    - name: RobotSheet_31
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 11
+        width: 220
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 4}
+        - {x: 24, y: 7}
+        - {x: 28, y: -13}
+        - {x: 29, y: -17}
+        - {x: 37, y: -13}
+        - {x: 37, y: 71}
+        - {x: 19, y: 103}
+        - {x: -24, y: 103}
+        - {x: -19, y: 72}
+        - {x: -15, y: 69}
+        - {x: -37, y: 65}
+        - {x: -37, y: -11}
+        - {x: -32, y: -17}
+        - {x: -26, y: -15}
+        - {x: -26, y: 1}
+        - {x: -24, y: 5}
+        - {x: -22, y: 16}
+        - {x: -22, y: 31}
+        - {x: -19, y: 11}
+        - {x: -25, y: 2}
+        - {x: -25, y: -101}
+        - {x: 26, y: -101}
+        - {x: 30, y: -32}
+        - {x: 25, y: 2}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
