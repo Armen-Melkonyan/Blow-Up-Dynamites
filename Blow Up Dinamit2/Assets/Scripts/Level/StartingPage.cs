@@ -27,5 +27,6 @@ public class StartingPage : MonoBehaviour {
 	}
 
 	public void Exit(){
+		Application.Quit();
 	}
 }

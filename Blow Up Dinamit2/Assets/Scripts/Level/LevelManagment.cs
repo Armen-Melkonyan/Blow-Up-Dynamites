@@ -22,12 +22,11 @@ public class LevelManagment : MonoBehaviour {
 	void Avake(){
 		source = GetComponent<Source> ();
 
-	
-		//levelLock = new int[source.levelCount];
-
-		star1Image = new Image[source.levelCount];
-		star2Image = new Image[source.levelCount];
-		star3Image = new Image[source.levelCount];
+		int l = source.levelCount;
+		Debug.Log ("level: " + l);
+		star1Image = new Image[l];
+		star2Image = new Image[l];
+		star3Image = new Image[l];
 
 		buttonImage = new Button[source.levelCount];
 
@@ -37,6 +36,7 @@ public class LevelManagment : MonoBehaviour {
 
 	void Start(){
 		levelLock = new int[4];
+
 		for (int i = 1; i < levelLock.Length; i++) {
 			levelLock[i]=PlayerPrefs.GetInt ("Lock" + (i + 1));
 
@@ -57,15 +57,14 @@ public class LevelManagment : MonoBehaviour {
 
 	public void Leve1Btn() {
 
-		Application.LoadLevel("Scene01");
+		Application.LoadLevel("Level01");
 		PlayerPrefs.SetInt ("Level" , 1);
 
 	}
 
 	public void Leve2Btn() {
 		if (levelLock[1] == 1) {
-			//Application.LoadLevel("Level2");
-			print("goto level2");
+			Application.LoadLevel("Level02");
 			PlayerPrefs.SetInt ("Level" , 2);
 		}
 
@@ -74,7 +73,7 @@ public class LevelManagment : MonoBehaviour {
 
 	public void Leve3Btn() {
 		if (levelLock[2] == 1) {
-			Application.LoadLevel("Level3");
+			Application.LoadLevel("Level03");
 			PlayerPrefs.SetInt ("Level" , 3);
 		}
 
