@@ -63,7 +63,7 @@ public class LevelManagment : MonoBehaviour {
 	}
 
 	public void Leve2Btn() {
-		if (levelLock[1] == 1) {
+		if (levelLock[1] == 1) {//if level lock is open
 			Application.LoadLevel("Level02");
 			PlayerPrefs.SetInt ("Level" , 2);
 		}
@@ -72,7 +72,7 @@ public class LevelManagment : MonoBehaviour {
 
 
 	public void Leve3Btn() {
-		if (levelLock[2] == 1) {
+		if (levelLock[2] == 1) {//if level lock is open
 			Application.LoadLevel("Level03");
 			PlayerPrefs.SetInt ("Level" , 3);
 		}
@@ -81,7 +81,7 @@ public class LevelManagment : MonoBehaviour {
 
 	public void Leve4Btn() {
 		if (levelLock[3] == 1) {
-			Application.LoadLevel("Level4");
+			Application.LoadLevel("Level04");
 			PlayerPrefs.SetInt ("Level" , 4);
 		}
 
