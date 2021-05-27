@@ -24,6 +24,7 @@ public class StartingPage : MonoBehaviour {
 	}
 
 	public void Help(){
+		Application.LoadLevel ("HelpScene");
 	}
 
 	public void Exit(){
