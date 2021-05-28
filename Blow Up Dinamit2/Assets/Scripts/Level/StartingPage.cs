@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class StartingPage : MonoBehaviour {
 
+	public void Manepage(){
+		Application.LoadLevel ("GameUI");
+	}
+
 	public void Play(){
 		Application.LoadLevel ("Levels");
 	}
