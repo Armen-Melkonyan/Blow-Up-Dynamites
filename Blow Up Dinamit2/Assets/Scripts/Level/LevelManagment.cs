@@ -29,9 +29,6 @@ public class LevelManagment : MonoBehaviour {
 		star3Image = new Image[l];
 
 		buttonImage = new Button[source.levelCount];
-
-
-
 	}
 
 	void Start(){
@@ -47,9 +44,6 @@ public class LevelManagment : MonoBehaviour {
 			}
 		}
 	
-
-
-
 		print (levelLock[1]);
 
 		Level ();

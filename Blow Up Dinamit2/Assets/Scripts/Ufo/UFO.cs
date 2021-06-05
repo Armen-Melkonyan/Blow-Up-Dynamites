@@ -48,6 +48,7 @@ public class UFO : MonoBehaviour {
 	string storedObjectName;
 
 	void Avake(){
+		sourse = GetComponent<Source> ();
 		life = sourse.life;
 		star = sourse.star;
 		speed = sourse.speed;
@@ -61,8 +62,6 @@ public class UFO : MonoBehaviour {
 
 		rig = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
-
-		sourse = GetComponent<Source> ();
 	}
 	
 	// Update is called once per frame
