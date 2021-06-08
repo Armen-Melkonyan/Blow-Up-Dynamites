@@ -9,6 +9,10 @@ public class LevelManagment : MonoBehaviour {
 	public Image[] star2Image;
 	public Image[] star3Image;
 
+	public Text levelCount;
+
+	int l = 1;
+
 	public Button[] buttonImage;
 
 	public int[] levelLock;
@@ -22,16 +26,22 @@ public class LevelManagment : MonoBehaviour {
 	void Avake(){
 		source = GetComponent<Source> ();
 
-		int l = source.levelCount;
+		l = source.levelCount;
+
+
+
 		Debug.Log ("level: " + l);
-		star1Image = new Image[l];
-		star2Image = new Image[l];
-		star3Image = new Image[l];
+		star1Image = new Image[4];
+		star2Image = new Image[4];
+		star3Image = new Image[4];
 
 		buttonImage = new Button[source.levelCount];
 	}
 
 	void Start(){
+		//l = source.levelCount;
+		levelCount.text = "Level count " + l;
+
 		levelLock = new int[4];
 
 		for (int i = 1; i < levelLock.Length; i++) {

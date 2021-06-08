@@ -13,7 +13,7 @@ public class StartingPage : MonoBehaviour {
 	}
 
 	public void ResetGame (){
-		for (int i = 1; i < 4; i++) {
+		for (int i = 1; i < 5; i++) {
 			PlayerPrefs.SetInt ("Lock" + i , 0 );
 		}
 
