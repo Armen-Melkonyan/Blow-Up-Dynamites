@@ -19,10 +19,15 @@ public class Gun : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Vector3 direction = Ufo.position - transform.position;
-		float angle = Mathf.Atan2 (direction.y , direction.x) * Mathf.Rad2Deg;
-		rig.rotation = angle;
+		try {
+			Vector3 direction = Ufo.position - transform.position;
+			float angle = Mathf.Atan2 (direction.y , direction.x) * Mathf.Rad2Deg;
+			rig.rotation = angle;
+		} catch (System.Exception ex) {
+			Debug.Log ("UFO destroyed");
+		}
 
+		//A bullet is fired whenever the ufo is approached
 		DistanceProssecc ();
 
 		if (r <= 15) {
@@ -39,12 +44,18 @@ public class Gun : MonoBehaviour {
 	}
 
 	void DistanceProssecc (){
-		var x = Ufo.transform.position.x - transform.position.x;
-		var y = Ufo.transform.position.y - transform.position.y;
+		try {
+			var x = Ufo.transform.position.x - transform.position.x;
+			var y = Ufo.transform.position.y - transform.position.y;
+			x = Mathf.Pow (x, 2);
+			y = Mathf.Pow (y, 2);
 
-		x = Mathf.Pow (x, 2);
-		y = Mathf.Pow (y, 2);
+			r = Mathf.Sqrt (x + y);
+		} catch (System.Exception ex) {
+			Debug.Log ("UFO destroyed");
+		}
 
-		r = Mathf.Sqrt (x + y);
+
+
 	}
 }

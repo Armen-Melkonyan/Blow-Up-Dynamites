@@ -58,7 +58,7 @@ public class UFO : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//Initialize helthBar
-		healthBar.setMaxHealth(life);
+		healthBar.setMaxHealth(300);
 
 		rig = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
@@ -159,7 +159,7 @@ public class UFO : MonoBehaviour {
 			veryBadSmoke = true;
 		} 
 		if (life <= 5) {
-			ufoDestroyed = true;
+			ufoDestroyed = true;//To immobilize ufo
 			star = 0;
 			PlayerPrefs.SetInt ("Stars1", star);
 			Invoke ("UfoExplode" , 2);
@@ -226,10 +226,10 @@ public class UFO : MonoBehaviour {
 			level = PlayerPrefs.GetInt ("Level");
 			Debug.Log ("Level: " + level);
 
-			PlayerPrefs.SetInt ("Stars" + level, star);
+			PlayerPrefs.SetInt ("Stars" + level, star);//make stars'n'
 			PlayerPrefs.SetInt ("Score", life);
 
-			PlayerPrefs.SetInt (("Lock" + (level + 1)) , 1);//lock3 = 1
+			PlayerPrefs.SetInt (("Lock" + (level + 1)) , 1);//lock3 = 1 next lock opened
 			Debug.Log(PlayerPrefs.GetInt("Lock" + (level + 1)));
 
 			gameStatus.Win();
@@ -244,8 +244,15 @@ public class UFO : MonoBehaviour {
 			Destroy (gameObject , 1f);
 			break;
 		case "Bullet":
+			//Make a flash when hit by the bullet
 			ufoUnderAttack.SetActive (true);
-			SmocProccess ();
+
+			//Make a smoke on the ufo
+			var ufoPos = transform;
+			Rigidbody2D makeSmok;
+			makeSmok = Instantiate (prifabSmok, ufoPos.position, Quaternion.identity) as Rigidbody2D;
+
+			//Decreased life
 			life -= 2;
 			DamageProccess ();
 			break;

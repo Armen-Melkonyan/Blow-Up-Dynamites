@@ -32,11 +32,22 @@ public class TankBullet : MonoBehaviour {
 		if (absVelX < maxVelocity.x || absVelX < maxVelocity.y)
 		{
 			//FireSound.Play();
-			bullet.AddForce(new Vector2((Ufo.transform.position.x - Gun.transform.position.x) * speed , (Ufo.transform.position.y - Gun.transform.position.y) * speed));
-		}
+			try {
+				bullet.AddForce(new Vector2((Ufo.transform.position.x - Gun.transform.position.x) * speed , (Ufo.transform.position.y - Gun.transform.position.y) * speed));
+			} catch (System.Exception ex) {
+				Debug.Log ("UFO destroyed");
+			}
 
+		}
+		//Make a trail of fire for bullets
 		SequenceProccess ();
 	}
+
+	//void OnTriggerEnter2D(Collider2D coll){
+	//	if (coll.gameObject.tag == "UFO") {
+	//		Destroy (gameObject);
+	//	}
+	//}
 
 	void SequenceProccess(){
 		var ufoPos = transform;

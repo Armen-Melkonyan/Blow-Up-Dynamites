@@ -17,6 +17,6 @@ public class ButtonEvents : MonoBehaviour {
 	}
 		
 	public void Exit (){
-		Debug.Log ("Exit");
+		Application.Quit();
 	}
 }
