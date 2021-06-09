@@ -53,8 +53,6 @@ public class LevelManagment : MonoBehaviour {
 				buttonImage [i].image.overrideSprite = ButtonClose;
 			}
 		}
-	
-		print (levelLock[1]);
 
 		Level ();
 	}

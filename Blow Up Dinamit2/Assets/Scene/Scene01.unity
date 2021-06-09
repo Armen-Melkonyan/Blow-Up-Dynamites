@@ -2483,6 +2483,7 @@ MonoBehaviour:
     type: 2}
   healthBar: {fileID: 1195405390}
   gameStatus: {fileID: 712905482}
+  cabin: {fileID: 1600756802}
   totalParts: 8
   rig: {fileID: 1216114790}
   prifabSmok: {fileID: 50904677344855152, guid: 5e9c6092d3caff540a4efbe09e3797b3,
@@ -3440,13 +3441,12 @@ SpriteRenderer:
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 95167809740087134, guid: 6c859388fafa03e40a7f68c076aa5f2c,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1600756798}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5d3047b51dcdcc04ea18c967731bbffa, type: 2}
+  m_Controller: {fileID: 9100000, guid: a9bb298d7363b214c954130d0fda81f2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3465,6 +3465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841796ecdaa5d2e4483761f330545ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
 --- !u!1 &1613136320
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class UFO : MonoBehaviour {
 	public FadeObject fadeObject;
 	public HealthBar healthBar;
 	public GameStatus gameStatus;
+	public Cabin cabin;
 
 	public int totalParts = 8;//to make 8 bodyPart
 
@@ -152,10 +153,17 @@ public class UFO : MonoBehaviour {
 	void DamageProccess(){
 		healthBar.SetHealth (life);
 		if (life <= 50) {
+			//make animation for ufo
 			anim.SetInteger ("damage", 1);
+			//Make animation for cabin
+			cabin.DamageCabin1 ();
 		} 
 		if (life  <= 30) {
+			//Make animation for ufo
 			anim.SetInteger ("damage", 2);
+			//Make animation for cabin
+			cabin.DamageCabin2 ();
+			//Make smoke for ufo
 			veryBadSmoke = true;
 		} 
 		if (life <= 5) {
