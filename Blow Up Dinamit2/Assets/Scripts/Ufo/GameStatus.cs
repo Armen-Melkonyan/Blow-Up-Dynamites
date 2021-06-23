@@ -4,10 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GameStatus : MonoBehaviour {
-	
+
+	public GameObject ufo, dynamite;
 	public Image GameMessagesImg;
 	public Button exitBtn , nextBtn;
 	public Sprite winSprite , gameOverSprite , nextButton , exitButton;
+
+	//To change Cameras position on dynamite
+	//public void CameraOnBomb(){
+		//ufo.SetActive (false);
+		//dynamite.SetActive (true);
+		//Debug.Log ("Camera on bomb! ");
+	//}
 
 	// Use this for initialization
 	public void Win(){

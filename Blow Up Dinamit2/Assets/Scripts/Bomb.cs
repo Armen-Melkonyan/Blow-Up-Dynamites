@@ -19,13 +19,16 @@ public class Bomb : MonoBehaviour {
 		
 
 	public void MakeExplosion(){
-		if (Dinamite.activeSelf) {
-			var t = transform;
-			Rigidbody2D makeExplosion = Instantiate (prifabBombExp, t.position, Quaternion.identity) as Rigidbody2D;
-			gameObject.SetActive (false);
-			Destroy (gameObject , 2f);
-		} 
-
+		try {
+			if (Dinamite.activeSelf) {
+				var t = transform;
+				Rigidbody2D makeExplosion = Instantiate (prifabBombExp, t.position, Quaternion.identity) as Rigidbody2D;
+				gameObject.SetActive (false);
+				Destroy (gameObject , 2f);
+			} 
+		} catch (System.Exception ex) {
+				
+		}
 	}
 
 	public void OnCollisionEnter2D(Collision2D coll){

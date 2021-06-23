@@ -295,9 +295,6 @@ public class UFO : MonoBehaviour {
 			// AudioSource.PlayClipAtPoint(BombSound, transform.position, 1f);
 			//GameOver();
 			break;
-		case "Tank":
-			//GameOver();
-			break;
 		}
 	}
 }

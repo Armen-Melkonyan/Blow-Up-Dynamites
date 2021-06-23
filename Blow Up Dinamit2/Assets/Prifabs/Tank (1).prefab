@@ -264,9 +264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 857390dab3ff5014186d99967903bf83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Ufo: {fileID: 4644498042896598, guid: c9a01cecce369d04e80c8e0dac037e6c, type: 2}
-  prifabBullet: {fileID: 50053506478420936, guid: ff2efd64db2c4704998ee6ebd52d6c56,
-    type: 2}
+  Ufo: {fileID: 0}
+  prifabBullet: {fileID: 50122924536576270}
   fire: 0
 --- !u!114 &114872387354195740
 MonoBehaviour:
