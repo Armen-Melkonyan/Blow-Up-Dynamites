@@ -1358,6 +1358,21 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114583181668206930, guid: 7cb1a327d9e028c4e96c0fc169254808,
+        type: 2}
+      propertyPath: bomb
+      value: 
+      objectReference: {fileID: 50121367}
+    - target: {fileID: 114583181668206930, guid: 7cb1a327d9e028c4e96c0fc169254808,
+        type: 2}
+      propertyPath: dinamite
+      value: 
+      objectReference: {fileID: 1251831136}
+    - target: {fileID: 114583181668206930, guid: 7cb1a327d9e028c4e96c0fc169254808,
+        type: 2}
+      propertyPath: mine
+      value: 
+      objectReference: {fileID: 50121367}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7cb1a327d9e028c4e96c0fc169254808, type: 2}
   m_IsPrefabParent: 0

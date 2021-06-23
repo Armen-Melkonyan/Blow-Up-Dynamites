@@ -160,6 +160,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 95751913369532864}
   bomb: {fileID: 0}
+  gameStatus: {fileID: 0}
+  ufo: {fileID: 0}
+  testIfItHide: 1
 --- !u!212 &212895470166221274
 SpriteRenderer:
   m_ObjectHideFlags: 1

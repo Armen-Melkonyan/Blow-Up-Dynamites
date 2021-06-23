@@ -32,7 +32,7 @@ public class ExplosionKey : MonoBehaviour {
 			    StartCoroutine (ReturnUfo(2));//make 2 seconds delay to return ufo
 			}
 
-			bomb.MakeExplosion ();
+			bomb.KeyPressed ();
 
 		}
 	}

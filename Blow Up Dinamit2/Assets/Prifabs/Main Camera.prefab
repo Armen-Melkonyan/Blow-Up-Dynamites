@@ -105,7 +105,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f75256c77ef8e45b820b524d4c4cd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  UFO: {fileID: 0}
+  dynamite: {fileID: 0}
+  UFOFalow: {fileID: 0}
+  dynamiteFalow: {fileID: 0}
 --- !u!124 &124311221515136716
 Behaviour:
   m_ObjectHideFlags: 1

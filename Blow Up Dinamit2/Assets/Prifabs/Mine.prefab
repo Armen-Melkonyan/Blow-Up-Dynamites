@@ -29,7 +29,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4650773145213788
 Transform:
   m_ObjectHideFlags: 1
@@ -91,8 +91,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prifabBombExp: {fileID: 50597145616935678, guid: d312089e69c0a3c40a6e532548d4ea72,
     type: 2}
-  Dinamite: {fileID: 0}
-  Mine: {fileID: 1790986966878374}
+  dinamite: {fileID: 0}
+  mine: {fileID: 1790986966878374}
 --- !u!212 &212844669335329148
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -5,8 +5,8 @@ using UnityEngine;
 public class Bomb : MonoBehaviour {
 
 	public Rigidbody2D prifabBombExp;
-	public GameObject Dinamite;
-	public GameObject Mine;
+	public GameObject dinamite;
+	public GameObject mine;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,17 +18,22 @@ public class Bomb : MonoBehaviour {
 	}
 		
 
-	public void MakeExplosion(){
+	public void KeyPressed(){
 		try {
-			if (Dinamite.activeSelf) {
-				var t = transform;
-				Rigidbody2D makeExplosion = Instantiate (prifabBombExp, t.position, Quaternion.identity) as Rigidbody2D;
-				gameObject.SetActive (false);
-				Destroy (gameObject , 2f);
+			if (dinamite.activeSelf) {
+				MakeExplosion();
 			} 
 		} catch (System.Exception ex) {
 				
 		}
+	}
+
+
+	void MakeExplosion(){
+		var t = transform;
+		Rigidbody2D makeExplosion = Instantiate (prifabBombExp, t.position, Quaternion.identity) as Rigidbody2D;
+		gameObject.SetActive (false);
+		Destroy (gameObject , 2f);
 	}
 
 	public void OnCollisionEnter2D(Collision2D coll){

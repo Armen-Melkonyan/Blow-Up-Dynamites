@@ -145,8 +145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prifabBombExp: {fileID: 50597145616935678, guid: d312089e69c0a3c40a6e532548d4ea72,
     type: 2}
-  Dinamite: {fileID: 1223590134247330}
-  Mine: {fileID: 0}
+  dinamite: {fileID: 1223590134247330}
+  mine: {fileID: 0}
 --- !u!212 &212648046649524302
 SpriteRenderer:
   m_ObjectHideFlags: 1
