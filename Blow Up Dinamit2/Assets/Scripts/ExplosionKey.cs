@@ -8,6 +8,10 @@ public class ExplosionKey : MonoBehaviour {
 	public Bomb bomb;
 	public GameStatus gameStatus;
 	public GameObject ufo;
+
+	public UFO UfoClass;//To make ufo static
+	public MovingCamera CameraPos;//to changing cameras position from ufo on dynamite
+
 	public bool testIfItHide = true;
 	Rigidbody2D rig;
 
@@ -27,8 +31,10 @@ public class ExplosionKey : MonoBehaviour {
 		if (coll.gameObject.tag == "UFO") {
 			anim.SetBool ("expKey" , true);//Move down handel of explosion key
 		
-			if(testIfItHide){
-				ufo.SetActive(false);
+			if(testIfItHide){//If Dinamit is hide
+				UfoClass.UfoStatic();
+				CameraPos.ChangeCamerasPos ();
+
 			    StartCoroutine (ReturnUfo(2));//make 2 seconds delay to return ufo
 			}
 
@@ -40,7 +46,7 @@ public class ExplosionKey : MonoBehaviour {
 	IEnumerator ReturnUfo(float t){
 		yield return new WaitForSeconds (t);
 		testIfItHide = false;
-		ufo.SetActive (true);
+		UfoClass.UfoDinamic();
 	}
 		
 }

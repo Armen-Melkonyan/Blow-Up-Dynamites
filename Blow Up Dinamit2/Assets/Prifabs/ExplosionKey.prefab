@@ -162,6 +162,8 @@ MonoBehaviour:
   bomb: {fileID: 0}
   gameStatus: {fileID: 0}
   ufo: {fileID: 0}
+  UfoClass: {fileID: 0}
+  CameraPos: {fileID: 0}
   testIfItHide: 1
 --- !u!212 &212895470166221274
 SpriteRenderer:

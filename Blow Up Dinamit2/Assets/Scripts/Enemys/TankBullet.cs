@@ -8,6 +8,7 @@ public class TankBullet : MonoBehaviour {
 	public GameObject Ufo , Gun;
 
 	public Rigidbody2D bullet;
+
 	public Rigidbody2D prifabSequence;
 
 	public bool fire = false;
@@ -61,4 +62,19 @@ public class TankBullet : MonoBehaviour {
 			timeCounter = 0;
 		}
 	}
+
+	//void OnTriggerExit2D(Collider2D coll){
+	//	if (coll.gameObject.tag == "BackGround") {
+
+	//		var gunPos = transform;
+	//		//Vector3 gunPos = Gun.transform.position;
+
+	//		Rigidbody2D bull;
+	//		//	makeSmok = Instantiate (prifabSmok, ufoPos.position, Quaternion.identity) as Rigidbody2D;
+	//		Destroy (gameObject);
+	//		bull = Instantiate (bullet, gunPos.position, Quaternion.identity) as Rigidbody2D;
+
+
+	//	}
+	//}
 }

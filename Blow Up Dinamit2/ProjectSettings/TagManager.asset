@@ -24,6 +24,7 @@ TagManager:
   - Tank
   - Sequence
   - Bullet
+  - BackGround
   layers:
   - Default
   - TransparentFX

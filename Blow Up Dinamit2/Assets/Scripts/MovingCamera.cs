@@ -7,24 +7,34 @@ public class MovingCamera : MonoBehaviour {
 	public GameObject dynamite;
 	public GameObject UFOFalow;
 	public GameObject dynamiteFalow;
+
+	public bool cameraOnUfo =true;
+
 	Vector3 vec = new Vector3(0, 0, 0);
 	// Update is called once per frame
 	void Update () {
 		try {
-			if(UFO.activeSelf){
+			if(cameraOnUfo){
 				transform.position = UFOFalow.transform.position;
 				vec = UFOFalow.transform.position;
-				Debug.Log("Camera on ufo");
 			}
 			else{
 				transform.position = dynamiteFalow.transform.position;
-				Debug.Log("Camera on dynamite");
+				Invoke("RechangeCamerasPos", 2);
 			}
 
 		} catch (System.Exception ex) {
 			transform.position = vec;
 		}
-
-
 	}
+
+	void RechangeCamerasPos(){
+		cameraOnUfo = true;
+	}
+
+	public void ChangeCamerasPos(){
+		cameraOnUfo = false;
+	}
+
+
 }

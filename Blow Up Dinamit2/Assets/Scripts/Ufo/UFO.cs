@@ -37,6 +37,14 @@ public class UFO : MonoBehaviour {
 	public int star;
 	public int speed;
 	public int rocetForse;
+	public bool buttonUp = false;//To move ufo up
+	public bool buttonDown = false;//To move ufo down
+	public bool buttonRight = false;//to move ufo right
+	public bool buttonLeft = false;//to move ufo left
+	public bool buttonWave = false;//To active or deactiv wave
+
+	bool selectButtonOnKeyBoard = true;//To change game control on key board or tach screem
+
 	string[] levelLock;
 	int level = 1;
 
@@ -74,23 +82,67 @@ public class UFO : MonoBehaviour {
 		Vector2 moveing = new Vector2 (moveHorizontal *speed , moveVertical * rocetForse);
 
 		if (!ufoDestroyed) {
-			rig.AddForce (moveing);//to move and fly ufo
+			if (selectButtonOnKeyBoard) {
+				rig.AddForce (moveing);//to move and fly ufo
+			}
+
+
+			//turn on UFO wave system
+			if (Input.GetKeyDown (KeyCode.Space) && !isStore) {
+				wave.SetActive (true);
+			} 
+			else if (Input.GetKeyDown (KeyCode.Space) && isStore) {
+				Restor ();//Give back the object
+			} 
+			else if (Input.GetKeyUp (KeyCode.Space)) {
+				wave.SetActive (false);
+			}
+
+			else if (!selectButtonOnKeyBoard && buttonUp) {
+				rig.AddForce (new Vector2(0, rocetForse));
+			} 
+			else if (!selectButtonOnKeyBoard && buttonDown) {
+				rig.AddForce (new Vector2(0, -rocetForse));
+			}
+			else if (!selectButtonOnKeyBoard && buttonRight) {
+				rig.AddForce (new Vector2(speed, 0));
+			}
+			else if (!selectButtonOnKeyBoard && buttonLeft) {
+				rig.AddForce (new Vector2(-speed, 0));
+			}
+
+			if (buttonWave && !isStore) {
+				wave.SetActive (true);
+			}
+			else if (!buttonWave) {
+				wave.SetActive (false);
+			}
+
+			if (Input.GetKey (KeyCode.S)) {
+				selectButtonOnKeyBoard = false;
+			} else if (Input.GetKey (KeyCode.D)) {
+				selectButtonOnKeyBoard = true;
+			}
+	
 			Rocket ();//
 		}
 
-		//turn on UFO wave system
-		if (Input.GetKeyDown(KeyCode.Space) && !isStore) {
-			wave.SetActive (true);
-		}else if (Input.GetKeyDown(KeyCode.Space) && isStore) {
-			Restor ();
-		}
-		else if (Input.GetKeyUp(KeyCode.Space)) {
-			wave.SetActive (false);
-		}
+
+		//else if (!buttonWave) {
+			//wave.SetActive (false);
+		//}
 			
 		if (veryBadSmoke) {
 			SmocProccess ();
 		}
+	}
+
+	public void UfoStatic(){
+		rig.GetComponent<Rigidbody2D> ().bodyType = RigidbodyType2D.Static;
+	}
+
+	public void UfoDinamic(){
+		rig.GetComponent<Rigidbody2D> ().bodyType = RigidbodyType2D.Dynamic;
 	}
 
 	//When ufo wave capture an object
@@ -98,10 +150,12 @@ public class UFO : MonoBehaviour {
 		isStore = true;
 	}
 
+	//Whene ufo capture the obgect
 	public void Store(string s){
 		storedObjectName = s;
 	}
 
+	//Return the object back
 	void Restor(){
 		switch (storedObjectName) {
 		case "ExpKey":
@@ -119,37 +173,75 @@ public class UFO : MonoBehaviour {
 		storImage.GetComponent<Image> ().sprite = imageDefault;
 	}
 
+	//UI buttons for moving ufo 
+	public void UpButtonDown(){
+		buttonUp = !buttonUp;
+	}
+	public void UpButtonUP(){
+		buttonUp = !buttonUp;
+	}
+
+	public void DownButtonDown(){
+		buttonDown = !buttonDown;
+	}
+	public void DownButtonUp(){
+		buttonDown = !buttonDown;
+	}
+
+	public void RightButtonDown(){
+		buttonRight = !buttonRight;
+	}
+	public void RightButtonUp(){
+		buttonRight = !buttonRight;
+	}
+
+	public void LeftButtonDown(){
+		buttonLeft = !buttonLeft;
+	}
+	public void LeftButtonUp(){
+		buttonLeft = !buttonLeft;
+	}
+
+	public void WaveButtonDown(){
+		buttonWave = !buttonWave;
+	}
+	public void WaveButtonUp(){
+		buttonWave = !buttonWave;
+	}
+
+	//turnon roket's motor
 	private void Rocket(){
 		
-		if (Input.GetKeyDown ("right")) {
+		if (Input.GetKeyDown ("right") || (!selectButtonOnKeyBoard && buttonRight)) {
 			rocketR.SetActive (true);
 		}
-		else if (Input.GetKeyUp ("right")) {
+		else if (Input.GetKeyUp ("right") || (!selectButtonOnKeyBoard && !buttonRight)) {
 			rocketR.SetActive (false);
 		}
 
-		if (Input.GetKeyDown ("left")) {	
+		if (Input.GetKeyDown ("left") || (!selectButtonOnKeyBoard && buttonLeft)) {	
 			rocketL.SetActive (true);
 		}
-		else if (Input.GetKeyUp ("left")) {
+		else if (Input.GetKeyUp ("left") || (!selectButtonOnKeyBoard && !buttonLeft)) {
 			rocketL.SetActive (false);
 		}			
 
-		if (Input.GetKeyDown ("up")) {
+		if (Input.GetKeyDown ("up") || (!selectButtonOnKeyBoard && buttonUp)) {
 			rocketUp.SetActive (true);
 		}
-		else if (Input.GetKeyUp ("up")) {
+		else if (Input.GetKeyUp ("up") || (!selectButtonOnKeyBoard && !buttonUp)) {
 			rocketUp.SetActive (false);
 		}
 
-		if (Input.GetKeyDown ("down")) {
+		if (Input.GetKeyDown ("down") || (!selectButtonOnKeyBoard && buttonDown)) {
 			rocketDown.SetActive (true);
 		}
-		else if (Input.GetKeyUp ("down")) {
+		else if (Input.GetKeyUp ("down") || (!selectButtonOnKeyBoard && !buttonDown)) {
 			rocketDown.SetActive (false);
 		}
 	}
 
+	//Calculate the amount of damage
 	void DamageProccess(){
 		healthBar.SetHealth (life);
 		if (life <= 50) {
@@ -174,6 +266,7 @@ public class UFO : MonoBehaviour {
 		}
 	}
 
+	//Make a smoke 
 	void SmocProccess(){
 		var ufoPos = transform;
 
@@ -187,6 +280,7 @@ public class UFO : MonoBehaviour {
 		}
 	}
 
+	//When the ufo exploded
 	void UfoExplode(){
 		gameStatus.GameOver ();
 
