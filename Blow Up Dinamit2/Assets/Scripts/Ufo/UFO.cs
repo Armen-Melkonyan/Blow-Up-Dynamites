@@ -12,10 +12,11 @@ public class UFO : MonoBehaviour {
 
 	public int totalParts = 8;//to make 8 bodyPart
 
-	public Rigidbody2D rig;
-	public Rigidbody2D prifabSmok;
-	public Rigidbody2D prifabBodyPart;
-	public Rigidbody2D prifabExplosion;
+	public Rigidbody2D rig;            // Rigidbody of ufo
+	public Rigidbody2D prifabSmok;     //To make smoke
+	public Rigidbody2D prifabBodyPart; //Make body parts when ufo explod 
+	public Rigidbody2D prifabExplosion;//For make an explosion
+
 
 	public Animator anim;
 
@@ -82,45 +83,58 @@ public class UFO : MonoBehaviour {
 		Vector2 moveing = new Vector2 (moveHorizontal *speed , moveVertical * rocetForse);
 
 		if (!ufoDestroyed) {
-			if (selectButtonOnKeyBoard) {
+			if (selectButtonOnKeyBoard && selectButtonOnKeyBoard) {
 				rig.AddForce (moveing);//to move and fly ufo
 			}
 
 
 			//turn on UFO wave system
-			if (Input.GetKeyDown (KeyCode.Space) && !isStore) {
+			if (selectButtonOnKeyBoard && (Input.GetKeyDown (KeyCode.Space)) && !isStore) {
 				wave.SetActive (true);
 			} 
-			else if (Input.GetKeyDown (KeyCode.Space) && isStore) {
+			//Don't turn on UFO wave
+			else if (selectButtonOnKeyBoard && (Input.GetKeyDown (KeyCode.Space)) && isStore) {
 				Restor ();//Give back the object
 			} 
-			else if (Input.GetKeyUp (KeyCode.Space)) {
+			//Turn off UFO Wave
+			else if (selectButtonOnKeyBoard && (Input.GetKeyUp (KeyCode.Space))) {
 				wave.SetActive (false);
 			}
 
+			//To add force to the UFO by buttons on the screen phone
+			//Move UFO to the up
 			else if (!selectButtonOnKeyBoard && buttonUp) {
 				rig.AddForce (new Vector2(0, rocetForse));
 			} 
+			//Move UFO to the down
 			else if (!selectButtonOnKeyBoard && buttonDown) {
 				rig.AddForce (new Vector2(0, -rocetForse));
 			}
+			//Move UFO to the right
 			else if (!selectButtonOnKeyBoard && buttonRight) {
 				rig.AddForce (new Vector2(speed, 0));
 			}
+			//Move UFO to the left
 			else if (!selectButtonOnKeyBoard && buttonLeft) {
 				rig.AddForce (new Vector2(-speed, 0));
 			}
-
-			if (buttonWave && !isStore) {
+		
+			if (!selectButtonOnKeyBoard && buttonWave && !isStore/*&& !isStore*/) {
 				wave.SetActive (true);
 			}
-			else if (!buttonWave) {
+			else if(!selectButtonOnKeyBoard && buttonWave && isStore/*&& isStore*/){
+				Restor ();
+			}
+			else if (!selectButtonOnKeyBoard && !buttonWave) {
 				wave.SetActive (false);
 			}
 
+			//Changing game control between keyboard and screen sensor 
+			//S: sellect screen 
+			//K: select keyboard 
 			if (Input.GetKey (KeyCode.S)) {
 				selectButtonOnKeyBoard = false;
-			} else if (Input.GetKey (KeyCode.D)) {
+			} else if (Input.GetKey (KeyCode.K)) {
 				selectButtonOnKeyBoard = true;
 			}
 	
@@ -137,10 +151,11 @@ public class UFO : MonoBehaviour {
 		}
 	}
 
+	//To make ufo static when dynamite has explode
 	public void UfoStatic(){
 		rig.GetComponent<Rigidbody2D> ().bodyType = RigidbodyType2D.Static;
 	}
-
+	//To make ufo dinamic when 2 second after explosion
 	public void UfoDinamic(){
 		rig.GetComponent<Rigidbody2D> ().bodyType = RigidbodyType2D.Dynamic;
 	}
@@ -174,6 +189,7 @@ public class UFO : MonoBehaviour {
 	}
 
 	//UI buttons for moving ufo 
+	//UI button move up
 	public void UpButtonDown(){
 		buttonUp = !buttonUp;
 	}
@@ -181,6 +197,7 @@ public class UFO : MonoBehaviour {
 		buttonUp = !buttonUp;
 	}
 
+	//UI button move down
 	public void DownButtonDown(){
 		buttonDown = !buttonDown;
 	}
@@ -188,6 +205,7 @@ public class UFO : MonoBehaviour {
 		buttonDown = !buttonDown;
 	}
 
+	//UI button moveright
 	public void RightButtonDown(){
 		buttonRight = !buttonRight;
 	}
@@ -195,6 +213,7 @@ public class UFO : MonoBehaviour {
 		buttonRight = !buttonRight;
 	}
 
+	//UI button move left
 	public void LeftButtonDown(){
 		buttonLeft = !buttonLeft;
 	}
@@ -202,16 +221,17 @@ public class UFO : MonoBehaviour {
 		buttonLeft = !buttonLeft;
 	}
 
+
+	//UI button wave
 	public void WaveButtonDown(){
-		buttonWave = !buttonWave;
+		buttonWave = true;
 	}
 	public void WaveButtonUp(){
-		buttonWave = !buttonWave;
+		buttonWave = false;
 	}
 
-	//turnon roket's motor
+	//turn on roket's motor
 	private void Rocket(){
-		
 		if (Input.GetKeyDown ("right") || (!selectButtonOnKeyBoard && buttonRight)) {
 			rocketR.SetActive (true);
 		}
@@ -284,7 +304,7 @@ public class UFO : MonoBehaviour {
 	void UfoExplode(){
 		gameStatus.GameOver ();
 
-		var t = transform;		
+		var t = transform;	//to get ufo position	
 		Rigidbody2D makeBodyPart;
 
 		for (int i = 0; i < totalParts; i++) {
@@ -328,12 +348,13 @@ public class UFO : MonoBehaviour {
 			level = PlayerPrefs.GetInt ("Level");
 			Debug.Log ("Level: " + level);
 
-			PlayerPrefs.SetInt ("Stars" + level, star);//make stars'n'
+			PlayerPrefs.SetInt ("Stars" + level, star);//make stars[n]
 			PlayerPrefs.SetInt ("Score", life);
 
-			PlayerPrefs.SetInt (("Lock" + (level + 1)) , 1);//lock3 = 1 next lock opened
+			PlayerPrefs.SetInt (("Lock" + (level + 1)) , 1);//lock3 = 1 next level lock opened
 			Debug.Log(PlayerPrefs.GetInt("Lock" + (level + 1)));
 
+			//Active UI buttons game control (next, exit, restart)
 			gameStatus.Win();
 
 			Destroy (gameObject , 0.5f);

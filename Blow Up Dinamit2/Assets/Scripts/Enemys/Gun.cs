@@ -32,12 +32,13 @@ public class Gun : MonoBehaviour {
 
 		if (r <= 15) {
 			var ufoPos = transform;
-			Rigidbody2D fire;
+			Rigidbody2D rFire;
 
 			fireTime += Time.deltaTime;
 
 			if (fireTime > 10) {
-				fire = Instantiate (prifabBullet, ufoPos.position, Quaternion.identity) as Rigidbody2D;
+				rFire = Instantiate (prifabBullet, ufoPos.position, Quaternion.identity) as Rigidbody2D;
+				//Destroy (prifabBullet);
 				fireTime = 0;
 			}
 		}

@@ -1135,6 +1135,7 @@ MonoBehaviour:
     type: 2}
   prifabExplosion: {fileID: 50166649747249068, guid: cef1acd8638b31045a488dc4368bf9bb,
     type: 2}
+  canvas: {fileID: 0}
   anim: {fileID: 95830594195467184}
   rocketL: {fileID: 1274038548207624}
   rocketR: {fileID: 1021410127260336}
@@ -1160,6 +1161,11 @@ MonoBehaviour:
   star: 0
   speed: 20
   rocetForse: 20
+  buttonUp: 0
+  buttonDown: 0
+  buttonRight: 0
+  buttonLeft: 0
+  buttonWave: 0
 --- !u!114 &114505431773777752
 MonoBehaviour:
   m_ObjectHideFlags: 1

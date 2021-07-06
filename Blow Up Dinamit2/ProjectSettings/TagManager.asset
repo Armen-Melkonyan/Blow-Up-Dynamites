@@ -71,3 +71,6 @@ TagManager:
   - name: Player
     uniqueID: 4128679941
     locked: 0
+  - name: HelpHand
+    uniqueID: 3858793481
+    locked: 0

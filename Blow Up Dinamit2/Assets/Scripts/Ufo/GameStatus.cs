@@ -7,8 +7,8 @@ public class GameStatus : MonoBehaviour {
 
 	public GameObject ufo, dynamite;
 	public Image GameMessagesImg;
-	public Button exitBtn , nextBtn;
-	public Sprite winSprite , gameOverSprite , nextButton , exitButton;
+	public Button exitBtn, nextBtn;
+	public Sprite winSprite, gameOverSprite, nextButton, exitButton;
 
 	//To change Cameras position on dynamite
 	//public void CameraOnBomb(){
@@ -31,5 +31,9 @@ public class GameStatus : MonoBehaviour {
 		GameMessagesImg.GetComponent<Image> ().sprite = gameOverSprite;
 
 		exitBtn.gameObject.SetActive (true);
+	}
+
+	public void UIButtons(){
+	
 	}
 }
